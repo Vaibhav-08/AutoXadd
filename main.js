@@ -156,7 +156,7 @@ async function handleRequest(request) {
                 });
             }
         default:
-            const html_response = await fetch('https://cdn.jsdelivr.net/gh/vaibhav-08/AddxAuto@main/index.html');
+            const html_response = await fetch('https://cdn.jsdelivr.net/gh/Vaibhav-08/AutoXadd@main/index.html');
             let html = await html_response.text();
 
             let html_captchascript = '';
